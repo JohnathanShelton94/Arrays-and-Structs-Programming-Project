@@ -47,7 +47,7 @@ int main() {
     Runner runners[numRunners];             // Array of structs
 
                 // Open the file for reading
-    ifstream inputFile("/runners.txt");
+    ifstream inputFile("runners.txt");
     if (!inputFile) {
         cerr << "Error opening file!" << endl;
         return 1;
